@@ -15,7 +15,7 @@ def start(bot, update):
 
 sched = BackgroundScheduler()
 sched.start()
-updater = Updater('691829804:AAH_JzAtsxvFckHlvFmwKSjhDOV-6o7jnf8')
+updater = Updater('11111111111:222222222222233333-6o7jnf8')
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.start_polling()
 updater.idle()
