@@ -3,6 +3,7 @@ from telegram.ext import Updater, CommandHandler
 import sched
 
 #pip install apscheduler
+#pip install python-telegram-bot
 #http://apscheduler.readthedocs.io/en/3.0/modules/triggers/cron.html#module-apscheduler.triggers.cron
 
 def notiMessage(bot, update):
